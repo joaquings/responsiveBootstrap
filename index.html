@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOREM IPSUM</a>
+          <button id="tog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dolor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Amet</a>
+              </li>
+              <li class="nav-item" id="opciones-li">
+                <a class="nav-link" href="#">Opciones</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchBar">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion carrusel -->
+
+      <h4 class="text-center" id="main-title">Lorem ipsum...</h4>
+
+      <section class="container" id="carrusel">
+        <div id="textCarousel" class="carousel slide" data-ride="carousel"  data-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p class="text-center">Primer elemento del carrusel</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="text-center">Segundo elemento del carrusel</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="text-center">Tercer elemento del carrusel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seccion grid de columnas -->
+
+    <section class="container text-center">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12" id="opciones-menu">
+                <ul class="list-group">
+                    <a href="#"><li class="list-group-item rounded">Opcion 1</li></a>
+                    <a href="#"><li class="list-group-item rounded">Opcion 2</li></a>
+                    <a href="#"><li class="list-group-item rounded">Opcion 3</li></a>
+                    <a href="#"><li class="list-group-item rounded">Opcion 4</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" id="opciones-menu-lg">
+                <ul class="list-group">
+                    <a href="#"><li class="list-group-item rounded">Opcion 1</li></a>
+                    <a href="#"><li class="list-group-item rounded">Opcion 2</li></a>
+                    <a href="#"><li class="list-group-item rounded">Opcion 3</li></a>
+                    <a href="#"><li class="list-group-item rounded">Opcion 4</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat leo sit amet mi ornare, vitae bibendum lacus suscipit. Quisque ut ex et nisi iaculis dictum id in augue. Nunc quis libero a neque pharetra gravida ut pellentesque nibh. Quisque porta augue eu luctus tristique.
+                </p>
+                <p class="text-justify">
+                    Duis vel auctor nisl, et efficitur sapien. Donec quis diam quis metus lacinia convallis. Maecenas ullamcorper purus vel ex facilisis, ac blandit massa maximus. Nullam ornare justo sit amet nulla convallis, sit amet semper libero suscipit.
+                </p> 
+                <p class="text-justify">
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis efficitur magna ante, ut efficitur ligula iaculis a.          
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p class="text-justify">
+                    Auris mi nunc, porttitor sit amet pellentesque eget, consequat egestas libero. Fusce congue gravida sagittis. Donec vehicula, lectus vel tempus sodales, leo nisi sollicitudin tortor, vitae lobortis sem justo vel lorem. Morbi purus diam, pharetra sit amet erat feugiat, sollicitudin laoreet dui.
+                </p>
+                <p class="text-justify"> 
+                    Donec venenatis dui fringilla, fermentum risus sed, fermentum nulla. Duis tempus id mi a malesuada. Pellentesque blandit in est eu vestibulum. Quisque vel cursus justo. Praesent convallis mollis interdum. In porttitor at nunc ac faucibus. 
+                </p>
+                <p class="text-justify">
+                    Non magna sollicitudin, fermentum ante non, interdum dolor. Maecenas sit amet viverra ante.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <p class="text-justify">
+                    Nullam euismod nec tortor ut porta. In ultricies nisl posuere, fermentum dui ac, ullamcorper ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean laoreet purus eu felis imperdiet facilisis. 
+                </p>
+                <p class="text-justify">
+                Quisque dolor urna, tempor ac fringilla ut, ornare ut purus. Fusce fermentum a mi eu aliquet. Sed dolor ipsum, hendrerit ac elit sed, scelerisque convallis libero.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script para el carrusel-->
+    <script>
+        $(document).ready(function() {
+            $('#textCarousel').carousel();
+        });
+        </script>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
